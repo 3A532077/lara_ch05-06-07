@@ -33,3 +33,5 @@ Route::group(['namespace'=>'cool'],function(){
     Route::get('cool','TestController@index');
 
 });
+
+Route::get('/board', 'BoardController@getIndex');
